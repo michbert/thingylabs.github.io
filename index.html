@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="de">
 
 <title>Thingylabs GmbH</title>
 <meta name="description" content="Building professional web experiences.">
@@ -14,10 +14,20 @@
 <meta property="og:image" content="https://thingylabs.io/logo.png">
 <meta property="og:image" content="https://thingylabs.io/logo-with-text.png">
 
+<link rel="alternate" hreflang="de" href="https://www.thingylabs.io/">
+<link rel="alternate" hreflang="en" href="https://www.thingylabs.io/#/en">
+<link rel="alternate" href="https://www.thingylabs.io/#/en" hreflang="x-default">
+<script defer src="i18n/en.js" onload="initTranslation()"></script>
+
 <body class="w-100 sans-serif bg-near-white mt4-ns mt1">
 
 <article class="mw6 center bg-white br3 pv3 pa4-ns pb3-ns ba b--black-10">
-  <div class="tc pt3-ns pt4">
+  <div class="tr f6 dark-gray fw2 ttu tracked pr3 pr0-ns pt2 pt0-ns">
+    <a href="#/de" class="dn pa2 dark-gray no-underline underline-hover" id="de">DE</a>
+    <a href="#/en" class="pa2 dark-gray no-underline underline-hover" id="en">EN</a>
+  </div>
+
+  <div class="tc pt1-ns pt2">
     <img src="logo.png" class="h3 w3 dib" title="Thingylabs GmbH">
     <h1 class="f4">Thingylabs GmbH</h1>
     <hr class="mw3 bb bw1 b--black-10" style="margin-bottom: -8px;">
@@ -30,13 +40,13 @@
 
   <hr class="mw3 bb bw1 b--black-10" style="margin-top: -8px;">
 
-  <p class="pt3 ph4 ph3-ns lh-copy tj">
+  <p class="pt3 ph4 ph3-ns lh-copy tj" data-i18n="about-1">
     Willkommen bei Thingylabs! Wir sind <b>Ihr zuverlässiger Partner für individuelle Softwarelösungen</b>. Als Experten für moderne Web-Technologien spezialisieren wir uns auf die Umsetzung Ihrer Visionen und die Erreichung Ihrer digitalen Ziele.
   </p>
-  <p class="ph4 ph3-ns lh-copy tj">
+  <p class="ph4 ph3-ns lh-copy tj" data-i18n="about-2">
     Als <b>Ihr Partner auf Augenhöhe</b> entwickeln wir maßgeschneiderte Lösungen und arbeiten eng mit Ihnen zusammen. Dabei unterstützen wir Unternehmen jeder Größe auf dem Weg zur digitalen Transformation.
   </p>
-  <p class="pt2 pb1 ph4 ph3-ns tc">
+  <p class="pt2 pb1 ph4 ph3-ns tc" data-i18n="about-3">
     <a class="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-dark-blue" href="https://docs.google.com/forms/d/e/1FAIpQLSeWj34o5DdEBNOOgW71jaDxsuLDSGVlExYNBSmfUpWVI-ZqMg/viewform?usp=sf_link">Kontaktieren Sie uns jetzt</a>
   </p>
 
@@ -60,20 +70,20 @@
     <li class="dib mr1 mb2"><span class="lh-copy db pa2 ba b--black-20">CI/CD</span>
   </ul>
 
-  <div class="pt3 tc"><span class="f6 dark-gray fw2 ttu tracked fw9">Fallstudie</span></div>
+  <div class="pt3 tc"><span class="f6 dark-gray fw2 ttu tracked fw9" data-i18n="case-study-1">Fallstudie</span></div>
 
   <div class="pv3 mh3 mh0-ns mb0" data-nosnippet>
     <div class="ba mv2">
-      <h2 class="f4 bg-near-black white mv0 pv2 ph3">PANTARIS (früher Calponia)</h2>
+      <h2 class="f4 bg-near-black white mv0 pv2 ph3" data-i18n="case-study-2">PANTARIS (früher Calponia)</h2>
       <div class="pa3 bt">
-        <p class="lh-copy measure mv0 tj">
-          Erfahren Sie, wie wir die Bosch-Gruppe bei ihrer Cloud-Plattform <a referrerpolicy="no-referrer" class="link underline dim dark-gray" href="https://www.etas.com/de/anwendungen/pantaris.php">PANTARIS</a> von der technischen Planung bis hin zum internationalen Produktivbetrieb begleitet haben und auch weiterhin aktiv unterstützen. <span class="i dark-gray">...in Kürze mehr dazu!</span>
+        <p class="lh-copy measure mv0 tj" data-i18n="case-study-3">
+          Erfahren Sie, wie wir die Bosch-Gruppe bei ihrer Cloud-Plattform <a referrerpolicy="no-referrer" class="link underline-hover" href="https://www.etas.com/de/anwendungen/pantaris.php">PANTARIS</a> von der technischen Planung bis hin zum internationalen Produktivbetrieb begleitet haben und auch weiterhin aktiv unterstützen. <span class="i dark-gray">...in Kürze mehr dazu!</span>
         </p>
       </div>
     </div>
   </div>
 
-  <div class="pt3 tc"><span class="f6 dark-gray fw2 ttu tracked fw9">Kunden</span></div>
+  <div class="pt3 tc"><span class="f6 dark-gray fw2 ttu tracked fw9" data-i18n="clients">Kunden</span></div>
 
   <ul class="list ph3 tc pa1 ph4-ns" data-nosnippet>
     <li class="dib mr1 mb2" style="display: none;" data-why="LinkedIn image preview"><span class="f6 db pa2 ba b--black-20"><img src="tech-cloud.png" class="h1 dib" title="Thingylabs GmbH technical competencies"></span></li>
@@ -86,7 +96,7 @@
     <li class="dib mr1 mb2"><span class="f6 db pa2 ba b--black-20"><img src="clients/HitCap-logo.png" width="18" height="18" class="dib" title="Hit Cap esports GmbH"></span></li>
   </ul>
 
-  <div class="pt3 tc"><span class="f6 dark-gray fw2 ttu tracked fw9">Gründer</span></div>
+  <div class="pt3 tc"><span class="f6 dark-gray fw2 ttu tracked fw9" data-i18n="founder">Gründer</span></div>
 
   <div class="pt2 pb3 tc mv2 relative" data-nosnippet>
     <div class="w-30 dib bg-white br3 pa3 pt4-ns pb2 pb0 mv1 ba b--black-10">
@@ -124,20 +134,53 @@
     </div>
   </div>
 
-  <div class="pt3 tc"><span class="f6 dark-gray fw2 ttu tracked fw9">Karriere</span></div>
+  <div class="pt3 tc"><span class="f6 dark-gray fw2 ttu tracked fw9" data-i18n="carrer-1">Karriere</span></div>
 
   <ul class="list pt0 ph3-ns ph4 tc">
-    <li class="ph1 pb2"><p class="lh-copy pt0 mt0 mb0-ns mb2">
-      Wir suchen IT-Experten mit breitem Wissen in Cloud- und Web-Technologien.
-      <a class="link dark-gray underline-hover" href="career.html">Mehr erfahren!</a>
+    <li class="ph1 pb2"><p class="lh-copy pt0 mt0 mb0-ns mb2" data-i18n="career-2">
+      Wir suchen IT-Experten mit breitem Wissen in Cloud- und Web-Technologien.<br>
+      <a class="link underline-hover" href="career.html">Mehr erfahren!</a>
     </p></li>
   </ul>
 </article>
 
 <footer class="ph3 pb5-ns pb4">
   <div class="tc mt3 f6 mid-gray">
-    <span class="pr2">Gegründet 2017</span>
+    <span class="pr2" data-i18n="footer">Gegründet 2017</span>
     <a referrerpolicy="no-referrer" href="https://opencollective.com/thingylabs" class="ph2 link mid-gray dim">„We ♥ Open Souce“</a>
     <a href="impressum.html" title="Impressum" class="pl2 link mid-gray dim">Impressum</a>
   </div>
 </footer>
+
+<script>
+  window.onhashchange = function () {
+    switchLang(location.hash.substring(2) || 'de')
+  }
+  function initTranslation () {
+    const lang = location.hash.substring(2)
+    if (lang === 'de') {
+      return
+    }
+    console.log('navigator.languages', navigator.languages)
+    if (lang === 'en' || (!navigator.languages.includes('de') && !navigator.languages.includes('de-DE'))) {
+      window.history.replaceState('', '', '#/en')
+      switchLang('en')
+    }
+  }
+  function switchLang (lang) {
+    if (lang !== 'de') {
+      document.getElementsByTagName('html')[0].setAttribute('lang', 'en')
+      document.getElementById('en').classList.add('dn')
+      document.getElementById('de').classList.remove('dn')
+      translate()
+      return
+    }
+    location.reload()
+  }
+  async function translate () {
+    for (const [key, value] of Object.entries(translation)) {
+      const element = document.querySelector(`[data-i18n="${key}"]`)
+      element.innerHTML = value
+    }
+  }
+</script>
