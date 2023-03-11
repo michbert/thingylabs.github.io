@@ -7,6 +7,8 @@ const translation = {
   'case-study-3': 'Find out how we support the Bosch Group on their cloud platform <a referrerpolicy="no-referrer" class="link underline-hover" href="https://www.etas.com/en/applications/pantaris.php">PANTARIS</a> from the technical planning to the international productive operation and continue to actively support them. <span class="i dark-grey">...more on that shortly!</span>',
   'clients': 'Clients',
   'founder': 'Founder',
+  'referral-1': 'Referral program',
+  'referral-2': 'Earn as a project broker with Thingylabs:<br>10% commission of each invoice up to a cap of 10,000€.<br><a class="link underline-hover" href="referral.html">Learn more!</a>',
   'carrer-1': 'Career',
   'career-2': 'We are looking for IT professionals with broad knowledge of cloud and web technologies.<br><a class="link underline-hover" href="career.html">Learn more!</a>',
   'footer': 'Founded 2017'

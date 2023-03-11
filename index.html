@@ -137,11 +137,20 @@
     </div>
   </div>
 
+  <div class="pt3 tc"><span class="f6 dark-gray fw2 ttu tracked fw9" data-i18n="referral-1">Referral-Programm</span></div>
+
+  <ul class="list ph4 ph3-ns tc">
+    <li class="ph1 pb2"><p class="lh-copy pt0 mt0 mb0-ns mb2" data-i18n="referral-2">
+      Verdienen Sie als Projektvermittler mit Thingylabs:<br>10% Provision von jeder Rechnung bis zu einer Deckelung von 10.000€.<br>
+      <a class="link underline-hover" href="referral.html">Mehr erfahren!</a>
+    </p></li>
+  </ul>
+
   <div class="pt3 tc"><span class="f6 dark-gray fw2 ttu tracked fw9" data-i18n="carrer-1">Karriere</span></div>
 
-  <ul class="list pt0 ph3-ns ph4 tc">
+  <ul class="list ph4 ph3-ns tc">
     <li class="ph1 pb2"><p class="lh-copy pt0 mt0 mb0-ns mb2" data-i18n="career-2">
-      Wir suchen IT-Experten mit breitem Wissen in Cloud- und Web-Technologien.<br>
+      Wir suchen passionierte Cloud- und Web-Entwickler.<br>
       <a class="link underline-hover" href="career.html">Mehr erfahren!</a>
     </p></li>
   </ul>
@@ -164,7 +173,6 @@
     if (lang === 'de') {
       return
     }
-    console.log('navigator.languages', navigator.languages)
     if (lang === 'en' || (!navigator.languages.includes('de') && !navigator.languages.includes('de-DE'))) {
       window.history.replaceState('', '', '#/en')
       switchLang('en')
