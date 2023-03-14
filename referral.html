@@ -13,11 +13,18 @@
 <meta property="og:description" content="Referral-Programm">
 <meta property="og:image" content="https://thingylabs.io/logo.png">
 
+<script defer src="i18n/referral-html.js" onload="initTranslation()"></script>
+
 <body class="w-100 sans-serif bg-near-white mt4-ns mt1">
 
-<article class="mw6 center bg-white br3 pv3 pa4-ns ba b--black-10">
+<article class="mw6 center bg-white br3 pv3 pa4-ns pb3-ns ba b--black-10">
+  <div class="tr f6 dark-gray fw2 ttu tracked pr3 pr0-ns pt2 pt0-ns">
+    <a href="#/de" class="dn pa2 dark-gray no-underline underline-hover" id="de">DE</a>
+    <a href="#/en" class="pa2 dark-gray no-underline underline-hover" id="en">EN</a>
+  </div>
+
   <div class="tc pt3-ns pt4">
-    <a href="index.html">
+    <a href="/">
       <img src="logo.png" class="h3 w3 dib" title="Thingylabs GmbH logo">
     </a>
     <h1 class="f4">Thingylabs GmbH</h1>
@@ -29,16 +36,16 @@
     <li class="pa1 b pt1"><a class="dark-gray no-underline underline-hover pt1 pb3" href="tel:+4971196881461">0711 219 545 03</a></li>
   </ul>
 
-  <p class="pt2 ph4 ph3-ns lh-copy tj">
-    Wir möchten unser Netzwerk erweitern und suchen daher nach engagierten Projektvermittlern, die uns bei der Suche nach neuen Projekten unterstützen. Wenn Sie uns erfolgreich einen Auftrag vermitteln, erhalten Sie nach jeder gezahlten Rechnung 10% des Rechnungsbetrags als Provision bis zu einer Deckelung von 10.000€. Unsere Rechnungsstellung erfolgt monatsweise.
+  <p class="pt2 ph4 ph3-ns lh-copy tj" data-i18n="referral-1">
+    Wir möchten unser Netzwerk erweitern und suchen daher nach engagierten Projektvermittlern, die uns bei der Suche nach neuen Projekten unterstützen. Wenn Sie uns erfolgreich einen Auftrag vermitteln, erhalten Sie nach jeder gezahlten Rechnung 10% des Rechnungsbetrags als Provision bis zu einer Deckelung von 10.000€ pro Kunde. Unsere Rechnungsstellung erfolgt monatsweise.
   </p>
-  <p class="ph4 ph3-ns lh-copy tj">
+  <p class="ph4 ph3-ns lh-copy tj" data-i18n="referral-2">
     Unser technisches Know-how umfasst eine breite Palette von Technologien und Tools, darunter AWS/Azure, TypeScript, JavaScript, Node.js, React, Angular, Flutter, React Native, Docker, Kubernetes, Microservices, Containerization, REST/GraphQL, DevOps und CI/CD. Wir sind immer auf dem neuesten Stand der Technik und arbeiten ständig daran, unsere Fähigkeiten und Kenntnisse zu erweitern.
   </p>
-  <p class="ph4 ph3-ns lh-copy tj">
+  <p class="ph4 ph3-ns lh-copy tj" data-i18n="referral-3">
     Wenn Sie Teil unseres Netzwerks werden möchten und an einer Zusammenarbeit interessiert sind, zögern Sie nicht, uns zu kontaktieren. Wir freuen uns darauf, von Ihnen zu hören!
   </p>
-  <p class="pt2 ph4 mb0 ph3-ns lh-copy tc">
+  <p class="pt2 pb3 ph4 mb0 ph3-ns lh-copy tc" data-i18n="referral-4">
     <a class="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-dark-blue" href="https://docs.google.com/forms/d/e/1FAIpQLSeWj34o5DdEBNOOgW71jaDxsuLDSGVlExYNBSmfUpWVI-ZqMg/viewform?usp=sf_link">Kontaktieren Sie uns jetzt</a>
   </p>
 </article>
@@ -50,3 +57,5 @@
     <a href="impressum.html" title="Impressum" class="pl2 link mid-gray dim">Impressum</a>
   </div>
 </footer>
+
+<script src="i18n/index.js"></script>

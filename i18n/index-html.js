@@ -8,7 +8,7 @@ const translation = {
   'clients': 'Clients',
   'founder': 'Founder',
   'referral-1': 'Referral program',
-  'referral-2': 'Earn as a project broker with Thingylabs:<br>10% commission of each invoice up to a cap of 10,000€.<br><a class="link underline-hover" href="referral.html">Learn more!</a>',
+  'referral-2': 'Earn as a project broker with Thingylabs:<br>10% commission of each invoice up to a cap of 10,000€.<br><a class="link underline-hover" href="referral.html#/en">Learn more!</a>',
   'carrer-1': 'Career',
   'career-2': 'We are looking for IT professionals with broad knowledge of cloud and web technologies.<br><a class="link underline-hover" href="career.html">Learn more!</a>',
   'footer': 'Founded 2017'

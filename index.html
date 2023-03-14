@@ -20,7 +20,7 @@
   <link rel="alternate" hreflang="de" href="https://www.thingylabs.io/">
   <link rel="alternate" hreflang="en" href="https://www.thingylabs.io/#/en">
   <link rel="alternate" href="https://www.thingylabs.io/#/en" hreflang="x-default">
-  <script defer src="i18n/en.js" onload="initTranslation()"></script>
+  <script defer src="i18n/index-html.js" onload="initTranslation()"></script>
 </head>
 
 <body class="w-100 sans-serif bg-near-white mt4-ns mt1">
@@ -164,34 +164,4 @@
   </div>
 </footer>
 
-<script>
-  window.onhashchange = function () {
-    switchLang(location.hash.substring(2) || 'de')
-  }
-  function initTranslation () {
-    const lang = location.hash.substring(2)
-    if (lang === 'de') {
-      return
-    }
-    if (lang === 'en' || (!navigator.languages.includes('de') && !navigator.languages.includes('de-DE'))) {
-      window.history.replaceState('', '', '#/en')
-      switchLang('en')
-    }
-  }
-  function switchLang (lang) {
-    if (lang !== 'de') {
-      document.getElementsByTagName('html')[0].setAttribute('lang', 'en')
-      document.getElementById('en').classList.add('dn')
-      document.getElementById('de').classList.remove('dn')
-      translate()
-      return
-    }
-    location.reload()
-  }
-  async function translate () {
-    for (const [key, value] of Object.entries(translation)) {
-      const element = document.querySelector(`[data-i18n="${key}"]`)
-      element.innerHTML = value
-    }
-  }
-</script>
+<script src="i18n/index.js"></script>
