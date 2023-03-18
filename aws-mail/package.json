@@ -1,0 +1,7 @@
+{
+  "name": "static-site-mailer",
+  "dependencies": {
+    "aws-sdk": "^2.1338.0",
+    "serverless": "^3.28.1"
+  }
+}

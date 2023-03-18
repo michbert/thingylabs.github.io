@@ -4,6 +4,7 @@ window.onhashchange = function () {
 function initTranslation () {
   const lang = location.hash.substring(2)
   if (lang === 'de') {
+    fillAndAttachListener()
     return
   }
   if (lang === 'en' || (!navigator.languages.includes('de') && !navigator.languages.includes('de-DE'))) {
@@ -17,6 +18,7 @@ function switchLang (lang) {
     document.getElementById('en').classList.add('dn')
     document.getElementById('de').classList.remove('dn')
     translate()
+    fillAndAttachListener()
     return
   }
   location.reload()
