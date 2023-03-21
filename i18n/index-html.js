@@ -2,17 +2,33 @@ const translation = {
   'about-1': 'Welcome to Thingylabs! We are <b>your reliable partner for individual software solutions</b>. As experts in modern web technologies, we specialize in implementing your visions and achieving your digital goals.',
   'about-2': 'As <b>your equal partner</b>, we develop tailor-made solutions and work closely with you. We support companies of all sizes on their way to digital transformation.',
   'about-3': '<a class="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-dark-blue" href="https://calendar.app.google/Ejd527BtwpA4TDyr7">Book an appointment!</a>',
+
   'case-study-1': 'Case study',
   'case-study-2': 'PANTARIS (formerly Calponia)',
   'case-study-3': 'Find out how we support the Bosch Group on their cloud platform <a referrerpolicy="no-referrer" class="link underline-hover dark-blue" href="https://www.etas.com/en/applications/pantaris.php">PANTARIS</a> from the technical planning to the international productive operation and continue to actively support them. <span class="i dark-grey">...more on that shortly!</span>',
+
   'clients': 'Clients',
+
   'founder': 'Founder',
+
+  'testimonials-1': 'Testimonials',
+  'testimonials-2': `<p class="f5 lh-copy measure mt0 mb3 tj">
+      Many, many thanks for […] the great support over the past few months.
+    </p><p class="f5 lh-copy measure mt0 mb3 tj">
+      I am sure that there will be points of contact and opportunities for cooperation again in the future.
+    </p><p class="f5 lh-copy measure mt0 mb3 tj">
+      In the meantime, we would definitely recommend you to others!
+    </p>
+    <cite class="f6 ttu tracked fs-normal">―Anika Brunner, CEO, emplu GmbH</cite>`,
+
   'referral-1': 'Referral program',
   'referral-2': 'Earn as a project broker with Thingylabs: 10% commission of each invoice up to 10,000€ per client.',
   'referral-3': '<a class="f6 grow no-underline br-pill ba ph3 pv2 mb2 dib dark-blue" href="referral.html#/en">Learn more!</a>',
+
   'career-1': 'Career',
   'career-2': 'We are looking for passionate cloud and web multi-talents.',
   'career-3': '<a class="f6 grow no-underline br-pill ba ph3 pv2 mb2 dib dark-blue" href="career.html#/en">Learn more!</a>',
+
   'form-heading': 'Write us:',
   'form-name-and-company': `
     <label class="clip" for="name">Name</label>
@@ -30,5 +46,6 @@ const translation = {
     <input class="f6 f5-l button-reset fl pv3 tc bn bg-animate bg-black-30 hover-bg-black-50 white pointer w-100 w-25-m w-20-l br2-ns br2 br--right-ns" type="submit" value="Send">
   `,
   'form-success': 'Thank you, we will be in touch with you shortly!',
+
   'footer': 'Founded 2017'
 }
