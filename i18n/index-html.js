@@ -21,14 +21,6 @@ const translation = {
     </p>
     <cite class="f6 ttu tracked fs-normal">―Anika Brunner, CEO, emplu GmbH</cite>`,
 
-  'referral-1': 'Referral program',
-  'referral-2': 'Earn as a project broker with Thingylabs: 10% commission of each invoice up to 10,000€ per client.',
-  'referral-3': '<a class="f6 grow no-underline br-pill ba ph3 pv2 mb2 dib dark-blue" href="referral.html#/en">Learn more!</a>',
-
-  'career-1': 'Career',
-  'career-2': 'We are looking for passionate cloud and web multi-talents.',
-  'career-3': '<a class="f6 grow no-underline br-pill ba ph3 pv2 mb2 dib dark-blue" href="career.html#/en">Learn more!</a>',
-
   'form-heading': 'Write us:',
   'form-name-and-company': `
     <label class="clip" for="name">Name</label>
