@@ -38,7 +38,26 @@
 
   <ul class="list ph3 tc" data-nosnippet>
     <li class="pa1 b pb1"><a class="dark-gray no-underline underline-hover pb1 pt3" href="mailto:hallo@thingylabs.io">hallo@thingylabs.io</a></li>
-    <li class="pa1 b pt1"><a class="dark-gray no-underline underline-hover pt1 pb3" href="tel:+4971196881461">0711 968 814 61</a></li>
+    <li class="pa1 b pt1">
+      <span class="dark-gray no-underline pt1 pb3 pointer" onClick="toggleMessenger()">
+        <svg width="20" height="20" style="vertical-align: top; margin-top: -2px;" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17.6 6.32A7.851 7.851 0 0 0 12 4a7.94 7.94 0 0 0-6.88 11.89L4 20l4.2-1.1a7.93 7.93 0 0 0 3.79 1 8 8 0 0 0 8-7.93 8 8 0 0 0-2.39-5.65ZM12 18.53a6.58 6.58 0 0 1-3.36-.92l-.24-.15-2.49.66.66-2.43-.16-.25a6.6 6.6 0 0 1 10.25-8.17 6.65 6.65 0 0 1 2 4.66 6.66 6.66 0 0 1-6.66 6.6Zm3.61-4.94c-.2-.1-1.17-.58-1.35-.64-.18-.06-.32-.1-.45.1a9.004 9.004 0 0 1-.63.77c-.11.14-.23.15-.43 0a5.33 5.33 0 0 1-2.69-2.35c-.21-.35.2-.33.58-1.08a.38.38 0 0 0 0-.35c0-.1-.45-1.08-.61-1.47-.16-.39-.32-.33-.45-.34h-.39a.71.71 0 0 0-.53.25A2.19 2.19 0 0 0 8 10.17a3.82 3.82 0 0 0 .81 2.05 8.89 8.89 0 0 0 3.39 3 3.85 3.85 0 0 0 2.38.5 1.999 1.999 0 0 0 1.33-.94 1.62 1.62 0 0 0 .12-.94c-.09-.1-.22-.15-.42-.25Z" fill="#000"/></svg> <span class="underline-hover ">0711 968 814 61</span>
+      </span>
+      <div class="pt3 pb2 ph5 center dn" id="messenger">
+        <ul class="list pl0 ml0 ba b--light-silver br3">
+          <li class="bb b--light-silver">
+            <a class="db pa3 dark-gray no-underline underline-hover hide-child" href="https://wa.me/4971196881461">
+              WhatsApp
+            </a>
+          </li>
+          <li class=" bb b--light-silver">
+            <a class="db pa3 dark-gray no-underline underline-hover" href="https://signal.me/#p/+4971196881461">Signal</a>
+          </li>
+          <li class="">
+            <a class="db pa3 dark-gray no-underline underline-hover" href="tel:+4971196881461">Telefon</a>
+          </li>
+        </ul>
+      </div>
+    </li>
   </ul>
 
   <hr class="mw3 bb bw1 b--black-10" style="margin-top: -8px">
@@ -153,3 +172,12 @@
 <script defer src="aws-mail/contact-form.js"></script>
 <script defer src="i18n/index.js"></script>
 <script defer src="i18n/index-html.js" onload="initTranslation()"></script>
+<script>
+  let showMessenger = false
+  function toggleMessenger (e) {
+    showMessenger = !showMessenger
+
+    var messenger = document.getElementById('messenger')
+    messenger.style.display = showMessenger ? 'block' : 'none'
+  }
+  </script>
