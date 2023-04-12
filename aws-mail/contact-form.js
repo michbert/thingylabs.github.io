@@ -22,7 +22,7 @@ contactFormDiv.innerHTML = `
       <div class="cf" data-i18n="form-email-and-send">
         <label class="clip" for="email">Email Address</label>
         <input class="f6 f5-l input-reset bn fl black-80 bg-white pa3 lh-solid w-100 w-75-m w-80-l br2 br2-ns br--left-ns mb2 mb0-ns" placeholder="Email-Adresse" type="email" name="email" value="" id="email" required>
-        <input class="f6 f5-l button-reset fl pv3 tc bn bg-animate bg-black-30 hover-bg-black-50 white pointer w-100 w-25-m w-20-l br2-ns br2 br--right-ns" type="submit" value="Senden">
+        <input class="f6 f5-l button-reset fl pv3 tc bn bg-animate bg-black-60 hover-bg-black-80 white pointer w-100 w-25-m w-20-l br2-ns br2 br--right-ns" type="submit" value="Senden">
       </div>
     </fieldset>
     <input type="input" name="blank" value="" style="display: none" tabindex="-1" autocomplete="off">
