@@ -3,9 +3,7 @@ const translation = {
   'about-2': 'As <b>your equal partner</b>, we develop tailor-made solutions and work closely with you. We support companies of all sizes on their way to digital transformation.',
   'about-3': '<a class="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-dark-blue" href="https://calendar.app.google/Ejd527BtwpA4TDyr7">Book an appointment!</a>',
 
-  'case-study-1': 'Case study',
-  'case-study-2': 'PANTARIS (formerly Calponia)',
-  'case-study-3': 'Find out how we support the Bosch Group on their cloud platform <a referrerpolicy="no-referrer" class="link underline-hover dark-blue" href="https://www.etas.com/en/applications/pantaris.php">PANTARIS</a> from the technical planning to the international productive operation and continue to actively support them. <span class="i dark-grey">...more on that shortly!</span>',
+  'technologies': 'Technologies',
 
   'clients': 'Clients',
 
