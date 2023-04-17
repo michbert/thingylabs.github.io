@@ -11,7 +11,7 @@ const translation = {
 
   'testimonials-1': 'Testimonials',
   'testimonials-2': `<p class="f5 lh-copy tracked mt0 mb3">
-      Many, many thanks for […] the great support over the past few months.
+      Thank you very much for the great support over the past few months.
     </p><p class="f5 lh-copy tracked mt0 mb3">
       I am sure that there will be points of contact and opportunities for cooperation again in the future.
     </p><p class="f5 lh-copy tracked mt0">
