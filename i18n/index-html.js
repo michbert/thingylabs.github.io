@@ -10,14 +10,14 @@ const translation = {
   'founder': 'Founder',
 
   'testimonials-1': 'Testimonials',
-  'testimonials-2': `<p class="f5 lh-copy measure mt0 mb3 tj">
+  'testimonials-2': `<p class="f5 lh-copy tracked mt0 mb3">
       Many, many thanks for […] the great support over the past few months.
-    </p><p class="f5 lh-copy measure mt0 mb3 tj">
+    </p><p class="f5 lh-copy tracked mt0 mb3">
       I am sure that there will be points of contact and opportunities for cooperation again in the future.
-    </p><p class="f5 lh-copy measure mt0 mb3 tj">
+    </p><p class="f5 lh-copy tracked mt0">
       In the meantime, we would definitely recommend you to others!
     </p>
-    <cite class="f6 ttu tracked fs-normal">―Anika Brunner, CEO, emplu GmbH</cite>`,
+    <cite class="f6 ttu tracked fs-normal">― Anika Brunner, CEO, emplu GmbH</cite>`,
 
   'form-heading': 'Write us:',
   'form-name-and-company': `
